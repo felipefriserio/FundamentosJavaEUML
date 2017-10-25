@@ -6,6 +6,7 @@ public class Teste {
 	
 	
 		public static void main(String[] args) {
+			// private static final CONTA = new Conta(); -- o que sera imutavel eh a referencia, e nao o objeto
 			System.out.println("A taxa é de: R$" + new ContaBancaria("Jose","Rua X", "123").getTaxaBancaria());
 			System.out.println("A taxa é de: R$" + new ContaBancaria("Jose","Rua X", "123").getTaxaBancaria(5));
 			System.out.println("A taxa é de: R$" + new ContaEspecial("Jose","Rua X", "123").getTaxaBancaria(5,2));
