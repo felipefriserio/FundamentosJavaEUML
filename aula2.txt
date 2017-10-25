@@ -1,0 +1,5 @@
+
+
+
+
+private static final CONTA = new Conta(); -- o que sera imutavel eh a referencia, e nao o objeto
