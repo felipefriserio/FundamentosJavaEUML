@@ -36,11 +36,11 @@ public class ContaBancaria {
 	}
 	
 	public double getTaxaBancaria(int dias, int meses) {
-		return (getTaxaBancaria(dias) + getTaxaBancaria(meses * 30));
+		return (getTaxaBancaria(meses * 30 + dias));
 	}
 	
 	public double getTaxaBancaria(int dias, int meses, int anos) {
-		return (getTaxaBancaria(dias) + getTaxaBancaria(meses * 30) + getTaxaBancaria(anos * 365));
+		return getTaxaBancaria((anos * 365)+ meses * 30 + dias);
 	}
 
 }

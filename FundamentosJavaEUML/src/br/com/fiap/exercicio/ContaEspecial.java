@@ -11,6 +11,6 @@ public class ContaEspecial extends ContaBancaria {
 	}
 	
 	public void deposita(double valor) {
-		super.deposita(valor * .9);
+		super.deposita(valor*.9);
 	}
 }
