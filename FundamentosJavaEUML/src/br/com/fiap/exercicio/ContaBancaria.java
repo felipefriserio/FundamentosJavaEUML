@@ -1,7 +1,7 @@
 package br.com.fiap.exercicio;
 
 public class ContaBancaria {
-	
+	public ContaBancaria(){}
 	public ContaBancaria(String nomeCliente, String endCliente, String cpfCliente) {
 		super(); // Chama construtor de Object
 		this.nomeCliente= nomeCliente;
@@ -25,6 +25,14 @@ public class ContaBancaria {
 	}
 	public void setSaldo(double saldo) {
 		this.saldo = saldo;
+	}
+	
+	public double getSaldo() {
+		return this.saldo;
+	}
+	
+	public String getCpfCliente() {
+		return cpfCliente;
 	}
 	
 	public double getTaxaBancaria() {

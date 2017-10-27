@@ -65,6 +65,19 @@ public class Teste {
 			System.out.println("O min eh: "+ min);
 			System.out.println("O max eh: "+ max);
 			System.out.println("A media eh: "+ (double) soma / byteArray.length);
+			
+			
+			
+			/* Exemplo de agregacao --- Materia <-> Aluno       (um pode existir sem o outro) 
+			 * Exemplo de composicao --- Aluno  <-> Matricula   (um nao existe sem o outro)
+			 * */
+			
+			
+			/*
+			 * comparando == de tipos primitivos compara valor do obj
+			 * comparando == com objetos complexos compara a referencia
+			 * */
+			
 		}
 
 }
