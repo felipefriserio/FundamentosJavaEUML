@@ -1,5 +1,7 @@
 package br.com.fiap.exercicio;
 
+import java.time.LocalDate;
+
 public class ContaBancaria {
 	public ContaBancaria(){}
 	public ContaBancaria(String nomeCliente, String endCliente, String cpfCliente) {
@@ -14,7 +16,9 @@ public class ContaBancaria {
 	protected String nomeCliente;
 	protected String endCliente;
 	protected String cpfCliente;
-
+	protected LocalDate dataCriacaoConta;
+	protected LocalDate dataNascimentoCliente;
+	
 	public void saque(double valor) {
 		saldo -= valor;
 		System.out.println(saldo);
@@ -50,5 +54,17 @@ public class ContaBancaria {
 	public double getTaxaBancaria(int dias, int meses, int anos) {
 		return getTaxaBancaria((anos * 365)+ meses * 30 + dias);
 	}
-
+	public LocalDate getDataCriacaoConta() {
+		return dataCriacaoConta;
+	}
+	public void setDataCriacaoConta(LocalDate dataCriacaoConta) {
+		this.dataCriacaoConta = dataCriacaoConta;
+	}
+	public LocalDate getDataNascimentoCliente() {
+		return dataNascimentoCliente;
+	}
+	public void setDataNascimentoCliente(LocalDate dataNascimentoCliente) {
+		this.dataNascimentoCliente = dataNascimentoCliente;
+	}
+	
 }
