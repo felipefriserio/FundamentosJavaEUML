@@ -1,7 +1,6 @@
 package br.com.fiap.exercicio;
 
 public class ContaEspecial extends ContaBancaria {
-	
 	public ContaEspecial(String nomeCliente, String endCliente, String cpfCliente) {
 		super(nomeCliente, endCliente, cpfCliente);
 	}
