@@ -1,6 +1,5 @@
 package br.com.fiap.exercicio;
 
-
 import java.time.LocalDate;
 
 public class Cliente{
