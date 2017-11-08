@@ -8,6 +8,7 @@ import java.util.List;
 
 public class TesteCollections {
 
+	
 	public static void main(String[] args) {
 		long loop     = 9999999;
 		String string = "Tobias";

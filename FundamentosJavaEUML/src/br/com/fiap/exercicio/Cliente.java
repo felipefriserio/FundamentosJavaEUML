@@ -2,6 +2,7 @@ package br.com.fiap.exercicio;
 
 import java.time.LocalDate;
 
+
 public class Cliente{
 	Cliente(String nome, int idade, boolean ativo, LocalDate data){}
 	
